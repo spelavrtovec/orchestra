@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  min-height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  background-image: url(images/d.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-blend-mode: overlay;
+}
+ 
+.oa-sidebar {
+  background-color: white;
+  display: inline-block;
+  color: #000000;
+  background-color: #ffffff;
+  -moz-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  -moz-transform-origin: left top;
+  -o-transform-origin: left top;
+  -ms-transform-origin: left top;
+  -webkit-transform-origin: left top;
+  transform-origin: left top;
+  left: 56px;
+  position: absolute;
+  z-index: 1;
+  margin: 0;
+  white-space: nowrap;
+  width: 100vh;
+  height: 50px;
+  position: fixed;
+  line-height: 50px;
+} 
+
+.oa-sidebar ul {
+  float: right;
+  font-size: 110%;
+  padding: 0;
+  display: block;
+}
+
+.oa-sidebar ul li {
+  list-style: none;
+  position: relative;
+  float: left;
+  border: 0;
+  margin: 0;
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+  padding-left: 30px;
+}
+
+.oa-sidebar ul li a {
+  display: block;
+  text-decoration: none;
+  color: #000000;
+  transition: 0.5s;
+}
+
+.oa-sidebar > ul > li > a:hover {
+  color: #c1c1c1;
+}
+
+.oa-sidebar ul li ul {
+  display: none;
+  position: absolute;
+  -moz-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.oa-sidebar ul li ul li {
+  float: right;
+  padding: 0;
+}
+
+.oa-sidebar ul li ul li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+.oa-sidebar ul li:hover ul {
+  display: block;
+}
+
+.oa-sidebar ul li ul li a:hover {
+  color: #c1c1c1;
+}
+
+#top-header {
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-size: 8vh;
+  font-family: 'Roboto', sans-serif;
+}
+
+#big {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
