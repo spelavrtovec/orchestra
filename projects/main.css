@@ -112,20 +112,20 @@ body {
   margin-top: 10vh;
 }
 
-.oa-ars-loka, .oa-cross-art, .oa-orchestra {
-  font-size: 11em;
+.oa-amadeo-festival, .oa-members, .oa-orchestra {
+  font-size: 8em;
   padding: 0;
   border: 0;
   margin: 0;
 }
 
-.oa-ars-loka a, .oa-cross-art a, .oa-orchestra a {
+.oa-amadeo-festival a, .oa-members a, .oa-orchestra a {
   text-decoration: none;
   color: #000000;
   transition: 0.5s;
 }
 
-.oa-ars-loka a:hover, .oa-cross-art a:hover, .oa-orchestra a:hover {
+.oa-amadeo-festival a:hover, .oa-members a:hover, .oa-orchestra a:hover {
   color: #c1c1c1;
 }
 
